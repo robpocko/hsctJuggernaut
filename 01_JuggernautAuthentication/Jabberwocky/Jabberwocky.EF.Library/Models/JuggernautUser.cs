@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Jabberwocky.EF.Library.Models
 {
@@ -21,8 +22,7 @@ namespace Jabberwocky.EF.Library.Models
         public string UserName { get; set; }
 
         [Required]
-        [MaxLength(25, ErrorMessage = "Password must be no longer than 25 characters")]
-        public string Password { get; set; }
+        public string PasswordHash { get; set; }
 
         [Required]
         public DateTime ActiveFrom { get; set; }

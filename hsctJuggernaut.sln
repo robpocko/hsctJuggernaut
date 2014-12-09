@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_JuggernautAuthentication", "01_JuggernautAuthentication", "{507ED935-66A3-48F4-A712-C4090186AB44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_JuggernautApplicationCentral", "02_JuggernautApplicationCentral", "{30A731C3-ECCD-4363-9058-2DE75A3542D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jabberwocky.EF.Library", "01_JuggernautAuthentication\Jabberwocky\Jabberwocky.EF.Library\Jabberwocky.EF.Library.csproj", "{3B317A4F-63DB-41D9-AF22-CA400DFAFABF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08_Tests", "08_Tests", "{3389099D-0784-4288-BBE9-7D83A13EDC82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jabberwocky", "Jabberwocky", "{54311076-DD4B-4D7E-8D14-92FA9EBF7E1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "08_Tests\Jabberwocky\UnitTests\UnitTests.csproj", "{CCB97FD0-1303-4889-8F43-C2FE2C12E6B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DjangoWebApi", "01_JuggernautAuthentication\DjangoWebApi\DjangoWebApi.csproj", "{52601C75-6AFC-4B8B-8468-86F15F1D45B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crypto", "00_Common\Crypto\Crypto.csproj", "{C6C9BA43-352A-4E3B-A190-440679178C61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B317A4F-63DB-41D9-AF22-CA400DFAFABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B317A4F-63DB-41D9-AF22-CA400DFAFABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B317A4F-63DB-41D9-AF22-CA400DFAFABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B317A4F-63DB-41D9-AF22-CA400DFAFABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB97FD0-1303-4889-8F43-C2FE2C12E6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB97FD0-1303-4889-8F43-C2FE2C12E6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB97FD0-1303-4889-8F43-C2FE2C12E6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB97FD0-1303-4889-8F43-C2FE2C12E6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52601C75-6AFC-4B8B-8468-86F15F1D45B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52601C75-6AFC-4B8B-8468-86F15F1D45B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52601C75-6AFC-4B8B-8468-86F15F1D45B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52601C75-6AFC-4B8B-8468-86F15F1D45B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C9BA43-352A-4E3B-A190-440679178C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C9BA43-352A-4E3B-A190-440679178C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C9BA43-352A-4E3B-A190-440679178C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C9BA43-352A-4E3B-A190-440679178C61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B317A4F-63DB-41D9-AF22-CA400DFAFABF} = {507ED935-66A3-48F4-A712-C4090186AB44}
+		{54311076-DD4B-4D7E-8D14-92FA9EBF7E1F} = {3389099D-0784-4288-BBE9-7D83A13EDC82}
+		{CCB97FD0-1303-4889-8F43-C2FE2C12E6B3} = {54311076-DD4B-4D7E-8D14-92FA9EBF7E1F}
+		{52601C75-6AFC-4B8B-8468-86F15F1D45B4} = {507ED935-66A3-48F4-A712-C4090186AB44}
+		{C6C9BA43-352A-4E3B-A190-440679178C61} = {507ED935-66A3-48F4-A712-C4090186AB44}
+	EndGlobalSection
+EndGlobal
